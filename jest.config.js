@@ -8,14 +8,13 @@ module.exports = {
       tsconfig: "./tsconfig.test.json",
     },
   },
-  jest: {
-    coverageThreshold: {
-      global: {
-        branches: 100,
-        functions: 100,
-        lines: 100,
-        statements: 100,
-      },
+
+  coverageThreshold: {
+    global: {
+      branches: 100,
+      functions: 100,
+      lines: 100,
+      statements: 100,
     },
   },
 };
